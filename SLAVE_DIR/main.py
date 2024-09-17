@@ -518,8 +518,11 @@ def set_default_color():
     neopixels = [NeoPixel(machine.Pin(pin), 10) for pin in pins]
     for np in neopixels:
         for i in range(np.n):
-            np[i] = (0, 0, 0)  # Set each LED to (0, 0, 0)
-        np.write()  # Update the LEDs with the new color
+            np[i] = (65, 0, 0)  
+            np[i] = (0, 65, 0)  
+            np[i] = (0, 0, 65)  
+            np[i] = (0, 0, 0)  
+        np.write()  
 
 set_default_color()
 
@@ -561,28 +564,11 @@ try:
     bins = [Bin(bin_config, i, rack_id, e, master_mac) for i, bin_config in enumerate(config['bins'])]
 
 
-    if bins:
-        bins[0].color = (64,0,0)
-        bins[0].change_led_color()
-        time.sleep(0.5)
 
-        bins[0].color = (0,64,0)
-        bins[0].change_led_color()
-        time.sleep(0.5)
-
-        bins[0].color = (0,0,64)
-        bins[0].change_led_color()
-        time.sleep(0.5)
-        bins[0].color = (0,0,0)
-        bins[0].change_led_color()
-        time.sleep(0.5)
-        for i in bins:
-            i.color = (0,0,0)
-            i.change_led_color()
-        hour, minute, second = map(int, global_time.split(":"))
-        rtc.datetime((2024, 8, 3, 6, hour, minute, second, 0))
-        time.sleep(2)
-        schedule_checker()
+    hour, minute, second = map(int, global_time.split(":"))
+    rtc.datetime((2024, 8, 3, 6, hour, minute, second, 0))
+    time.sleep(2)
+    schedule_checker()
     
 
 
