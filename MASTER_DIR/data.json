@@ -1,0 +1,49 @@
+[
+  {
+    "Group_id": "G1",
+    "racks": [
+      {
+        "rack_id": "S1",
+        "mac": [44, 188, 187, 7, 42, 116],
+        "bins": [
+          {
+            "led_pin": 12,
+            "color": [0, 0, 0],
+            "bin_id": "S1_01",
+            "button_pin": 13,
+            "clicked": true,
+            "enabled": true,
+            "schedules": []
+          },
+          {
+            "led_pin": 25,
+            "color": [0, 0, 0],
+            "bin_id": "S1_02",
+            "button_pin": 14,
+            "clicked": true,
+            "enabled": true,
+            "schedules": []
+          },
+          {
+            "led_pin": 26,
+            "color": [0, 0, 0],
+            "bin_id": "S1_03",
+            "button_pin": 15,
+            "clicked": true,
+            "enabled": true,
+            "schedules": []
+          },
+          {
+            "led_pin": 27,
+            "color": [0, 0, 0],
+            "bin_id": "S1_04",
+            "button_pin": 16,
+            "clicked": true,
+            "enabled": true,
+            "schedules": []
+          }
+        ]
+      }
+    ]
+  }
+]
