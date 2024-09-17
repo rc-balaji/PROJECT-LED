@@ -9,7 +9,7 @@ from neopixel import NeoPixel
 import esp
 import gc
 gc.enable()
-
+import time
 #Define the pin for the switch
 switch_pin = machine.Pin(2, machine.Pin.IN)
 
@@ -19,16 +19,17 @@ curr_state = switch_pin.value()
 def set_default_color():
     pins = [12, 25, 26, 27]
     neopixels = [NeoPixel(machine.Pin(pin), 10) for pin in pins]
-    for np in neopixels:
-        for i in range(np.n):
-            np[i] = (65, 0, 0)  
-            np[i] = (0, 65, 0)  
-            np[i] = (0, 0, 65)  
-            np[i] = (0, 0, 0)  
-        np.write()  
+    color_tup = [(65, 0, 0) ,(0, 65, 0) ,(0, 0, 65),(0,0,0)]
+
+
+    for col in color_tup:
+        for np in neopixels:
+            for i in range(np.n):
+                np[i] = col
+            np.write() 
+            time.sleep(0.05)
 
 set_default_color()
-
 print("Coming")
 if curr_state == 1:
     print("TP-1")
