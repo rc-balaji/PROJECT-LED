@@ -211,17 +211,58 @@ class Station:
             cl.send(json.dumps(response))
             cl.close()
 
-            # {'requests': [{'ip': '192.168.65.200', 'data': {'group_id': 'STA-1', 'operation': 'remove-master'}}]}
+            # Save requests to req.json
+            self.save_requests_to_json(sev_data['requests'])
 
-            print(sev_data['requests'])
-            if sev_data is not None:
-                for req in sev_data['requests']:
-                    oper_data = req['data']
-                    handle_operation(oper_data,self.get_mac(),self.const,self.bin_const)
-                
+        
+
         except Exception as err:
             print(f"Error handling request: {err}")
             machine.reset()
+    
+
+    def save_requests_to_json(self, requests_data):
+        """Save requests data to req.json."""
+        try:
+            with open('req.json', 'r') as f:
+                saved_requests = json.load(f)
+
+
+            with open("req.json", "w") as file:
+                json.dump(requests_data + saved_requests, file)
+            print("Requests saved to req.json successfully.")
+        except Exception as err:
+            print(f"Failed to save requests to req.json: {err}")
+    
+
+    def proceed_operation(self):
+        """Proceed with further operations after saving the requests."""
+        print("Proceeding with additional operations...")
+        try:
+            with open('req.json', 'r') as f:
+                saved_requests = json.load(f)
+            print("Read requests from req.json successfully.")
+            
+            # Process each request in the saved data
+            for index,req in enumerate(saved_requests):
+                print(f"Processing request: {req}")
+                # Add custom operation logic here
+                try:
+                    handle_operation(req['data'], self.get_mac(), self.const, self.bin_const)
+                    print("Successfully Proceed")
+                    temp = saved_requests[index + 1:]
+
+                    print(temp)
+                    with open("req.json", "w") as file:
+                        json.dump(temp, file)
+                    time.sleep(2)
+                except Exception as err:
+                    print(err)
+
+                    machine.reset()
+
+        except Exception as e:
+            print(f"Error reading req.json: {e}")
 
     def non_blocking_read(self, file, delimiter=None, size=None):
         """Read data from file in a non-blocking way."""

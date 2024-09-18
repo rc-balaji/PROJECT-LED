@@ -3,17 +3,18 @@
 import json
 import network
 import usocket as socket
-
+import time
 import machine
 from neopixel import NeoPixel
 import esp
 import gc
 gc.enable()
-import time
+
 #Define the pin for the switch
 switch_pin = machine.Pin(2, machine.Pin.IN)
 
 curr_state = switch_pin.value()
+
 
 
 def set_default_color():
@@ -27,9 +28,10 @@ def set_default_color():
             for i in range(np.n):
                 np[i] = col
             np.write() 
-            time.sleep(0.05)
+            time.sleep(0.05)  
 
 set_default_color()
+
 print("Coming")
 if curr_state == 1:
     print("TP-1")
@@ -51,7 +53,3 @@ elif curr_state == 0:
         print(err)
         machine.reset()
         
-
-
-
-

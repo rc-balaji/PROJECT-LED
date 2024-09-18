@@ -142,16 +142,17 @@ def start_sta_mode():
             
             time.sleep(2)
 
+            sta.proceed_operation()
+
+            time.sleep(2)
+
             try:  
                sta.start_server() 
             except Exception:
                 machine.reset()
             
             time.sleep(2)
-
-
-            
-            
+  
         else: 
             print("Switch OFF - Offline State")
 

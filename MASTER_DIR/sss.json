@@ -1,0 +1,3708 @@
+[
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": { "operation": "add-master", "new_group_id": "SSS" }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": { "operation": "add-master", "new_group_id": "SSS" }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": { "operation": "add-master", "new_group_id": "SSS" }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": { "operation": "add-master", "new_group_id": "SSS" }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 42, 116],
+      "new_rack_id": "q13"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 63, 16],
+      "new_rack_id": "q39"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 52, 244],
+      "new_rack_id": "q15"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 36, 92],
+      "new_rack_id": "q38"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 158, 48],
+      "new_rack_id": "q66"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 147, 224],
+      "new_rack_id": "q23"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 160, 80],
+      "new_rack_id": "q21"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 7, 53, 32],
+      "new_rack_id": "q59"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 49, 124],
+      "new_rack_id": "q61"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 141, 248],
+      "new_rack_id": "q56"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 84, 136],
+      "new_rack_id": "q28"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 5, 23, 200],
+      "new_rack_id": "q53"
+    }
+  },
+  {
+    "ip": "192.168.5.20",
+    "data": {
+      "group_id": "SSS",
+      "operation": "add-rack",
+      "mac": [44, 188, 187, 6, 146, 204],
+      "new_rack_id": "q43"
+    }
+  }
+]
