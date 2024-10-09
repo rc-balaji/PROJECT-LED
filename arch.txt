@@ -1,0 +1,346 @@
+Certainly! I'll provide you with a complete architecture for this API development NodeJS code, separating the endpoints with their bodies and requests. Here's a breakdown of the architecture:
+
+1. Server Setup:
+   - Express server setup
+   - Middleware configuration (CORS, JSON parsing)
+   - Port configuration
+
+2. Database/File System:
+   - JSON file storage (data.json, static.json)
+   - Excel file handling (user.xlsx, led_mac_data.xlsx)
+
+3. Caching Mechanism:
+   - In-memory cache
+   - Cache update function
+
+4. Utility Functions:
+   - File read/write operations
+   - Excel file operations
+   - Static IP handling
+   - Color normalization
+
+5. Authentication:
+   - Login endpoint
+
+6. Device Management:
+   - Get device information
+   - Get device information from Excel
+
+7. Group Management:
+   - Create new group
+   - Delete group
+
+8. Rack Management:
+   - Add new rack to a group
+   - Delete rack from a group
+
+9. Bin Management:
+   - Get bin details
+   - Update bin color
+   - Toggle bin clicked status
+   - Enable/disable bin
+
+10. Schedule Management:
+    - Add new schedule
+    - Delete schedule
+    - Update schedule status
+
+11. Data Import/Export:
+    - Import data from Excel
+
+12. Time Synchronization:
+    - Get current time
+
+13. ESP Communication:
+    - Queue management for ESP requests
+    - Processing queued requests
+
+Now, let's break down the endpoints with their request bodies and responses:
+
+1. Login
+   - Endpoint: POST   /login
+   - Request Body:
+     ```json
+     {
+       "email": "user@example.com",
+       "password": "password123"
+     }
+     ```
+   - Response:
+     ```json
+     {
+       "success": true,
+       "user": {
+         "email": "user@example.com"
+       }
+     }
+     ```
+
+2. Get Device Information
+   - Endpoint: GET /device
+   - Response: Array of device objects from static.json
+
+3. Get Device Information from Excel
+   - Endpoint: GET /device/excel
+   - Response: Array of device objects from led_mac_data.xlsx
+
+4. Get Static IP
+   - Endpoint: GET /address/getIP/:group_id
+   - Response:
+     ```json
+     {
+       "ip": "192.168.1.100"
+     }
+     ```
+
+5. Add Static IP
+   - Endpoint: POST /address/addIP
+   - Request Body:
+     ```json
+     {
+       "ip": "192.168.1.100",
+       "device_id": "device123"
+     }
+     ```
+   - Response:
+     ```json
+     {
+       "message": "Static IP updated successfully"
+     }
+     ```
+
+6. Set Static IP
+   - Endpoint: POST /address/setIP
+   - Request Body:
+     ```json
+     {
+       "group_id": "group123",
+       "ip": "192.168.1.100"
+     }
+     ```
+   - Response:
+     ```json
+     {
+       "message": "Static IP updated successfully"
+     }
+     ```
+
+7. Update Click Status
+   - Endpoint: POST /click/update
+   - Request Body:
+     ```json
+     {
+       "group_id": "group123",
+       "rack_id": "rack123",
+       "bin_idx": 0
+     }
+     ```
+   - Response: "Data updated successfully"
+
+8. Get All Data
+   - Endpoint: GET /data
+   - Response: Entire cache content
+
+9. Import Data
+   - Endpoint: POST /import
+   - Request Body: Form-data with file upload
+   - Response:
+     ```json
+     {
+       "message": "File imported and data updated successfully"
+     }
+     ```
+
+10. Get Bin Details
+    - Endpoint: GET /bin
+    - Query Parameters: group_id, rack_id, bin_id
+    - Response: Bin object
+
+11. Update Bin Schedule
+    - Endpoint: PUT /bin/update/schedule
+    - Request Body:
+      ```json
+      {
+        "group_id": "group123",
+        "rack_id": "rack123",
+        "bin_id": "bin123",
+        "scheduled_index": 0,
+        "current_enabled_status": true
+      }
+      ```
+    - Response: Updated bin object
+
+12. Update Bin Enabled Status
+    - Endpoint: POST /bin/update/enabled
+    - Request Body:
+      ```json
+      {
+        "group_id": "group123",
+        "rack_id": "rack123",
+        "bin_id": "bin123"
+      }
+      ```
+    - Response: Updated bin object
+
+13. Update Bin Clicked Status
+    - Endpoint: POST /bin/update/clicked
+    - Request Body:
+      ```json
+      {
+        "group_id": "group123",
+        "rack_id": "rack123",
+        "bin_id": "bin123"
+      }
+      ```
+    - Response: Updated bin object
+
+14. Update Bin Color
+    - Endpoint: PUT /bin/update/color
+    - Request Body:
+      ```json
+      {
+        "group_id": "group123",
+        "rack_id": "rack123",
+        "bin_id": "bin123",
+        "new_color": [255, 0, 0]
+      }
+      ```
+    - Response: Updated bin object
+
+15. Create New Group
+    - Endpoint: POST /new/group
+    - Request Body:
+      ```json
+      {
+        "newGroupid": "group123",
+        "newGroupDeviceId": "device123"
+      }
+      ```
+    - Response:
+      ```json
+      {
+        "message": "Group added successfully",
+        "group": {
+          "Group_id": "group123",
+          "master_device_id": "device123",
+          "racks": []
+        }
+      }
+      ```
+
+16. Delete Group
+    - Endpoint: POST /delete/group
+    - Request Body:
+      ```json
+      {
+        "groupId": "group123"
+      }
+      ```
+    - Response:
+      ```json
+      {
+        "message": "Group deleted successfully"
+      }
+      ```
+
+17. Add New Rack
+    - Endpoint: POST /new/wrack
+    - Request Body:
+      ```json
+      {
+        "Groupid": "group123",
+        "newWrackid": "rack123",
+        "id": "device123"
+      }
+      ```
+    - Response:
+      ```json
+      {
+        "message": "Rack added successfully",
+        "rack": {
+          "rack_id": "rack123",
+          "mac": [1, 2, 3, 4, 5, 6],
+          "device_id": "device123",
+          "bins": [...]
+        }
+      }
+      ```
+
+18. Delete Rack
+    - Endpoint: POST /delete/rack
+    - Request Body:
+      ```json
+      {
+        "Groupid": "group123",
+        "rackId": "rack123"
+      }
+      ```
+    - Response:
+      ```json
+      {
+        "message": "Rack deleted successfully",
+        "rackId": "rack123"
+      }
+      ```
+
+19. Add New Schedule
+    - Endpoint: POST /new/schedule
+    - Request Body:
+      ```json
+      {
+        "group_id": "group123",
+        "wrack_id": "rack123",
+        "bin_id": "bin123",
+        "new_schduled": {
+          "time": "12:00",
+          "color": [255, 0, 0],
+          "enabled": true
+        }
+      }
+      ```
+    - Response:
+      ```json
+      {
+        "message": "Schedule added successfully",
+        "bin": {...}
+      }
+      ```
+
+20. Delete Schedule
+    - Endpoint: POST /delete/schedule
+    - Request Body:
+      ```json
+      {
+        "group_id": "group123",
+        "wrack_id": "rack123",
+        "bin_id": "bin123",
+        "scheduleIndex": 0
+      }
+      ```
+    - Response:
+      ```json
+      {
+        "message": "Schedule deleted successfully",
+        "bin": {...}
+      }
+      ```
+
+21. Get Current Time
+    - Endpoint: GET /get-time
+    - Response:
+      ```json
+      {
+        "time": "2023-05-20T12:34:56.789Z"
+      }
+      ```
+
+22. Get Current Time (Alternative)
+    - Endpoint: GET /get-time1
+    - Response:
+      ```json
+      {
+        "time": "2023-05-20T12:34:56+05:30"
+      }
+      ```
+
+This architecture provides a comprehensive overview of the API endpoints, their request bodies, and expected responses. It also outlines the main components of the system, including server setup, data storage, caching, and utility functions.

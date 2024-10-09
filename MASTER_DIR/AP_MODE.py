@@ -215,8 +215,3 @@ try:
     start_server_AP()
 except Exception as err:
     print(err)
-
-
-
-
-

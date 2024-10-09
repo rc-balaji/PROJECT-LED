@@ -35,8 +35,8 @@ class Constants:
     def get_i2c(self):
         return self._i2c
     
-    def parse_iso_time(self,iso_string):
-    # Example ISO 8601 format: "2024-08-03T14:26:03.000Z"
+    def parse_iso_time(self, iso_string):
+    
         date_time = iso_string.split("T")
         
         # Extract date
@@ -45,18 +45,19 @@ class Constants:
         month = int(date_parts[1])
         day = int(date_parts[2])
         
-        # Extract time (ignoring milliseconds and 'Z')
-        time_parts = date_time[1].split(":")
+        # Extract time and handle timezone offset (+05:30)
+        time_parts = date_time[1].split("+")[0].split(":")
         hour = int(time_parts[0])
         minute = int(time_parts[1])
-        second = int(time_parts[2].split(".")[0])
+        second = int(time_parts[2])
         
         return year, month, day, hour, minute, second
+
 
     
     def get_time_from_server(self,ip):
         try:
-            url = "http://"+ip+":5000/get-time"  # Replace with your server IP
+            url = "http://"+ip+":5000/get-time1"  # Replace with your server IP
             response = urequests.get(url)
             if response.status_code == 200:
                 # Parse the time from the server response
@@ -140,3 +141,4 @@ class Constants:
             self._buzzer.off()
             self._relay.off()
             print("Buzzer and Relay turned OFF")
+

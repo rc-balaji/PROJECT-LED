@@ -79,12 +79,13 @@ class Station:
                 time.sleep(1)
                 if time.time() - start_time > 10:
                     print("\nFailed to connect within 10 seconds.")
-                    machine.reset()
-                    return
+                    # machine.reset()
+                    return False
             print()
 
         print('Network configuration:', self.sta.ifconfig())
         self.update_ip()
+        return True
 
     def update_ip(self):
         """Update IP address after Wi-Fi connection."""
@@ -229,7 +230,7 @@ class Station:
 
 
             with open("req.json", "w") as file:
-                json.dump(requests_data + saved_requests, file)
+                json.dump(saved_requests + requests_data, file)
             print("Requests saved to req.json successfully.")
         except Exception as err:
             print(f"Failed to save requests to req.json: {err}")
@@ -327,6 +328,7 @@ class Station:
         # clear_notify_queue()
 
     
+
 
 
 

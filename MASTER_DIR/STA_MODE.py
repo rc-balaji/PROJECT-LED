@@ -132,7 +132,13 @@ def start_sta_mode():
             time.sleep(2)
             print("Switch OFF - Online State")
 
-            sta.connect_to_wifi()
+            status = sta.connect_to_wifi()
+
+            if not status:
+                offline_toggled = not offline_toggled
+                continue
+
+                
             time.sleep(2)
             const.get_time_from_server(sta.server_ip)
 
@@ -195,6 +201,8 @@ def start_sta_mode():
         time.sleep(2)
 
 start_sta_mode();
+
+
 
 
 

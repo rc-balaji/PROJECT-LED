@@ -395,3 +395,4 @@ def update_data_json_from_message(msg,const,bin_const):
         'color' : color_arr
     })
       
+

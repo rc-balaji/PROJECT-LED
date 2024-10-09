@@ -97,6 +97,43 @@ class ESPNowManager:
                 update_data_json_from_message(msg, const= self.const,bin_const=self.bin_const)
             time.sleep(1)
 
+    # def process_message_queue(self):
+    #     """Process messages from the message queue and send them via ESPNOW."""
+    #     message_queue = QObject.read_message_queue()  # Fetch the message queue
+    #     index = 0  # Initialize index for message queue
+
+    #     while index < len(message_queue):
+    #         item = message_queue[index]
+    #         mac, msg = tuple(item)
+    #         mac = bytes(mac)
+            
+    #         try:
+    #             try:
+    #                 self.e.add_peer(mac)
+    #             except Exception:
+    #                 pass
+    #             self.e.send(mac, msg)
+    #             print(f"Sent to {mac}: {msg}")
+
+    #             # If 'add-rack' is in the message, stop processing, re-add all data, and break
+    #             if 'add-rack' in msg:
+    #                 print("Condition 'add-rack' met. Re-adding remaining data and stopping.")
+    #                 QObject.clear_message_queue()
+    #                 for i in message_queue[index + 1:]:
+    #                     QObject.add_message_queue(i)
+
+    #                 # QObject.write_message_queue(message_queue[index:])  # Re-add remaining items to the queue
+    #                 break  # Stop further processing
+
+    #             time.sleep(0.5)  # Adding a small delay between sending messages
+                
+    #         except Exception as err:
+    #             print(f"Error sending message to {mac}: {err}")
+
+    #         index += 1  # Move to the next item
+
+    #     QObject.clear_message_queue()  # Clear the queue after processing (if needed)
+
     def process_message_queue(self):
         """Process messages from the message queue and send them via ESPNOW."""
         message_queue = QObject.read_message_queue()  # Fetch the message queue
@@ -111,9 +148,14 @@ class ESPNowManager:
                     pass
                 self.e.send(mac, msg)
                 print(f"Sent to {mac}: {msg}")
+                if 'add-rack' in  msg :
+                    time.sleep(17)
                 time.sleep(0.5)  # Adding a small delay between sending messages
             except Exception as err:
                 print(f"Error sending message to {mac}: {err}")
 
         QObject.clear_message_queue()  # Clear the queue after processing
+        # QObject.add_message_queue
+    
+
 

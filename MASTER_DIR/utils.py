@@ -227,3 +227,4 @@ def send_message(mac, msg):
     # Add message to the queue
     QObject.add_message_queue([[i for i in mac], msg])
     # print(f"Message added to queue: {msg}")
+
