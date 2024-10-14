@@ -12,7 +12,7 @@ from utils import handle_operation
 
 from QueueManager import QueueManager
 
-
+import gc
 QM_Object = QueueManager()
 
 
@@ -180,7 +180,7 @@ class Station:
             if s is not None:
                 s.close()
             print("Server has been shut down.")
-
+            gc.collect()
     def handle_client(self, cl):
         """Handle client connections and process requests."""
         cl.setblocking(False)
@@ -261,7 +261,7 @@ class Station:
                     print(err)
 
                     machine.reset()
-
+            gc.collect()
         except Exception as e:
             print(f"Error reading req.json: {e}")
 
@@ -325,6 +325,7 @@ class Station:
                     response.close()
 
         QM_Object.clear_notify_queue()
+        gc.collect()
         # clear_notify_queue()
 
     

@@ -508,6 +508,7 @@ def schedule_checker():
                     bins[index].color = tuple(schedule['color'])
                     bins[index].change_led_color()
                     bin['clicked'] = False
+        gc.collect()
         time.sleep(60)
 e = None
 config = {}

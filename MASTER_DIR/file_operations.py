@@ -4,6 +4,8 @@ import json
 
 data_file = 'data.json'
 
+
+
 from QueueManager import QueueManager
 
 QObject = QueueManager()
@@ -14,7 +16,7 @@ def get_data():
     data = []
     with open("data.json", 'r') as f:
         data= json.load(f)
-    
+    gc.collect()
     return data;
 
 
@@ -43,6 +45,7 @@ def set_data(new_data):
     print(new_data)
     with open('data.json', 'w') as f:
         json.dump(new_data, f)
+    gc.collect()
 
     # del formatted_json   
     # gc.collect()     

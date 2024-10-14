@@ -4,7 +4,7 @@
 import json
 import machine
 
-
+import gc
 
 
 # # Importing the necessary functions from file_operation.py
@@ -221,7 +221,7 @@ def handle_operation(rec_data,wlan_mac,const,bin_const):
                 else:
                     bin_const._bins[bin_idx].turn_off_leds()
 
-
+    gc.collect()
 def send_message(mac, msg):
     print("Senting meesagess")
     # Add message to the queue

@@ -199,7 +199,7 @@ def start_sta_mode():
         
         offline_toggled = not offline_toggled  
         time.sleep(2)
-
+        gc.collect()
 start_sta_mode();
 
 

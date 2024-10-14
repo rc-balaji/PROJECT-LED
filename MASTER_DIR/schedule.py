@@ -5,7 +5,7 @@ import time
 from file_operations import get_data
 
 
-
+import gc
 
 def schedule_checker(const,bin_const):
     
@@ -39,5 +39,5 @@ def schedule_checker(const,bin_const):
                                 bin_const._bins[index].change_led_color()
                                 bin['clicked'] = False
                             const.add_to_active_bins(rack_id, index, bin_const._bins[index].color)  # Store active bins in a global list
-
+        gc.collect()
         time.sleep(60) 
