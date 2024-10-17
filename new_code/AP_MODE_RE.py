@@ -1,4 +1,3 @@
-
 # AP_MODE.py
 
 import json
@@ -69,13 +68,13 @@ local_ip = "192.168.4.1"
 
 def load_config():
     try:
-        with open('../config.json', 'r') as f:
+        with open('config.json', 'r') as f:
             return json.load(f)
     except:
         return {"KIT_NO": "", "STATIC_NO": "", "SERVER_NO": "", "SSID": "", "PASSWORD": ""}
 
 def save_config(config):
-    with open('../config.json', 'w') as f:
+    with open('config.json', 'w') as f:
         json.dump(config, f)
 
 def render_html(template, config, ip):
@@ -155,16 +154,11 @@ def connect_to_wifi(ssid, password):
 def handle_request(client, config):
     request = client.recv(1024).decode('utf-8')
     if 'POST /update' in request:
-        body = request.split('
-
-')[1]
+        body = request.split('\\r\\n\\r\\n')[1]
         params = parse_form_data(body)
         config.update(params)
         save_config(config)
-        response = 'HTTP/1.1 303 See Other
-Location: /
-
-'
+        response = 'HTTP/1.1 303 See Other\\r\\nLocation: /\\r\\n\\r\\n'
         client.send(response.encode('utf-8'))
     else:
         with open('index.txt', 'r') as f:
@@ -175,10 +169,7 @@ Location: /
         # except Exception as err:
         #     print("ERROR : ",err)
         response = render_html(html, config, ip_address)
-        client.send('HTTP/1.1 200 OK
-Content-Type: text/html
-
-'.encode('utf-8'))
+        client.send('HTTP/1.1 200 OK\\r\\nContent-Type: text/html\\r\\n\\r\\n'.encode('utf-8'))
         client.send(response.encode('utf-8'))
         if ip_address:
             teardown_wifi(network.WLAN(network.STA_IF))
@@ -226,6 +217,3 @@ try:
 except Exception as err:
     print(err)
 
-  
-
-    

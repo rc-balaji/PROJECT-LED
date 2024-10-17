@@ -120,7 +120,7 @@ def set_bin_queue(queue):
 def read_config():
 
     try:
-        with open('/config.json', 'r') as file:
+        with open('../config.json', 'r') as file:
             config = json.load(file)
             return config
     except OSError:

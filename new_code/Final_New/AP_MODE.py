@@ -102,7 +102,7 @@ def render_html(template, config, ip):
     return template
 
 def url_decode(url_encoded_str):
-    """Manually decode a URL-encoded string."""
+   
     result = url_encoded_str.replace('+', ' ')
     parts = result.split('%')
     decoded_str = parts[0]
@@ -114,7 +114,7 @@ def url_decode(url_encoded_str):
     return decoded_str
 
 def parse_form_data(body):
-    """Parse URL-encoded form data."""
+
     data = {}
     pairs = body.split('&')
     for pair in pairs:
@@ -161,13 +161,13 @@ def handle_request(client, config):
         response = 'HTTP/1.1 303 See Other\r\nLocation: /\r\n\r\n'
         client.send(response.encode('utf-8'))
     else:
-        with open('AP_Files/index.txt', 'r') as f:
+        with open('index.txt', 'r') as f:
             html = f.read()
-        ip_address = None
-        try:
-            ip_address = connect_to_wifi(config['SSID'], config['PASSWORD'])
-        except Exception as err:
-            print("ERROR : ",err)
+        ip_address = ""
+        # try:
+        #     ip_address = connect_to_wifi(config['SSID'], config['PASSWORD'])
+        # except Exception as err:
+        #     print("ERROR : ",err)
         response = render_html(html, config, ip_address)
         client.send('HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n'.encode('utf-8'))
         client.send(response.encode('utf-8'))
@@ -216,3 +216,4 @@ try:
     start_server_AP()
 except Exception as err:
     print(err)
+
