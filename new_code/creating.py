@@ -429,7 +429,7 @@ MAX_RETRIES = 3  # Maximum number of retries for failed requests
 
 
 def process_queue(server_ip, kit_no):
-    """Process the request queue and send requests."""
+
     # Read the queue from the file
     try:
         with open(queue_file, 'r') as file:
@@ -480,16 +480,14 @@ def process_queue(server_ip, kit_no):
     # Update the queue file with failed requests
     set_queue(new_queue)
 
-    print("Queue processing completed.")
-
+    
 
 def set_queue(queue):
     with open(queue_file, 'w') as file:
         json.dump(queue, file)
 
 def add_to_queue(request_data):
-    """Add a new request to the queue."""
-    # Initialize the queue if the file does not exist
+
     try:
         with open(queue_file, 'r') as file:
             queue = json.load(file)
@@ -537,7 +535,7 @@ def set_bin_queue(queue):
 def read_config():
 
     try:
-        with open('../config.json', 'r') as file:
+        with open('/config.json', 'r') as file:
             config = json.load(file)
             return config
     except OSError:
@@ -556,7 +554,6 @@ def get_data():
 def set_data(new_data):
     with open('/data.json', 'w') as file:
         json.dump(new_data, file)
-
 
 
 
@@ -627,7 +624,6 @@ def check_schedules(rtc,bin_obj):
 
 
 "STA_MODE.py" : '''
-
 import _thread
 import time
 
@@ -641,6 +637,10 @@ from station import Station
 import gc 
 
 import urequests
+
+from machine import Pin
+
+from time import sleep
 
 
 const = Constants()
@@ -712,16 +712,35 @@ def get_click_data_from_server():
 
 print(sta.server_ip)
 
+led = Pin(17, Pin.OUT)
+
+# Function to blink the LED
+def blink_led():
+    led.on()   # Turn the LED on
+    sleep(0.5) # Wait for 0.5 seconds
+    led.off()  # Turn the LED off
+    sleep(0.5) # Wait for 0.5 seconds
+
+# Function to turn the LED on
+def turn_on_led():
+    led.on()
+
+
+
+
 
 while True:
     if sta.isconnected():
+        turn_on_led()
         process_queue(sta.server_ip , const.KIT_NO)
         sta.get_time_from_server()
         sta.update_data_from_server()
         get_click_data_from_server()
     else:
         print("Not Connecting With Wifi")
+        blink_led() 
         sta.connect_to_wifi()
+       
     time.sleep(10)
    
     
@@ -734,7 +753,6 @@ print("System initialized and running.")
 ''',
 
 "station.py":'''
-
 import network
 import time
 import urequests
@@ -910,11 +928,7 @@ class Station:
                     set_data(data)
                     print("Update data from server: Success")
                     # Further processing can be done with the received data
-            else:
-                print("Failed to get data from server. Setting data to an empty object.")
-                set_data(not_found)
-                set_queue([])
-                set_bin_queue(new_bin_q)
+
 
             response.close()  # Properly close the connection
 
@@ -971,7 +985,7 @@ class Station:
 }
 
 AP_file = {
-     "sam.py": """
+     "main.py": """
 
 # main.py
 

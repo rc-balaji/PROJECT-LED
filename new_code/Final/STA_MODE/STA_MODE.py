@@ -12,6 +12,10 @@ import gc
 
 import urequests
 
+from machine import Pin
+
+from time import sleep
+
 
 const = Constants()
 bin_manager = BinManager()
@@ -82,21 +86,41 @@ def get_click_data_from_server():
 
 print(sta.server_ip)
 
+led = Pin(17, Pin.OUT)
+
+# Function to blink the LED
+def blink_led():
+    led.on()   # Turn the LED on
+    sleep(0.5) # Wait for 0.5 seconds
+    led.off()  # Turn the LED off
+    sleep(0.5) # Wait for 0.5 seconds
+
+# Function to turn the LED on
+def turn_on_led():
+    led.on()
+
+
+
+
 
 while True:
     if sta.isconnected():
+        turn_on_led()
         process_queue(sta.server_ip , const.KIT_NO)
         sta.get_time_from_server()
         sta.update_data_from_server()
         get_click_data_from_server()
     else:
         print("Not Connecting With Wifi")
+        blink_led() 
         sta.connect_to_wifi()
+        
     time.sleep(10)
-   
+    
     
 
 print("System initialized and running.")
+
 
 
 

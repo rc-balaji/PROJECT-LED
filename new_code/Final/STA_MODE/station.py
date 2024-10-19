@@ -173,11 +173,7 @@ class Station:
                     set_data(data)
                     print("Update data from server: Success")
                     # Further processing can be done with the received data
-            else:
-                print("Failed to get data from server. Setting data to an empty object.")
-                set_data(not_found)
-                set_queue([])
-                set_bin_queue(new_bin_q)
+
 
             response.close()  # Properly close the connection
 

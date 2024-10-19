@@ -28,11 +28,11 @@ class BinManager:
 
     def check_and_update_buzzer_relay(self):
         if self._active_bins:
-            self._buzzer.on()
+            # self._buzzer.on()
             self._relay.on()
             print("Buzzer and Relay turned ON")
         else:
-            self._buzzer.off()
+            # self._buzzer.off()
             self._relay.off()
             print("Buzzer and Relay turned OFF")
 

@@ -12,7 +12,7 @@ MAX_RETRIES = 3  # Maximum number of retries for failed requests
 
 
 def process_queue(server_ip, kit_no):
-    """Process the request queue and send requests."""
+
     # Read the queue from the file
     try:
         with open(queue_file, 'r') as file:
@@ -63,16 +63,14 @@ def process_queue(server_ip, kit_no):
     # Update the queue file with failed requests
     set_queue(new_queue)
 
-    print("Queue processing completed.")
-
+    
 
 def set_queue(queue):
     with open(queue_file, 'w') as file:
         json.dump(queue, file)
 
 def add_to_queue(request_data):
-    """Add a new request to the queue."""
-    # Initialize the queue if the file does not exist
+
     try:
         with open(queue_file, 'r') as file:
             queue = json.load(file)
@@ -120,7 +118,7 @@ def set_bin_queue(queue):
 def read_config():
 
     try:
-        with open('../config.json', 'r') as file:
+        with open('/config.json', 'r') as file:
             config = json.load(file)
             return config
     except OSError:
