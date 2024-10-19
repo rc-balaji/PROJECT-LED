@@ -9,11 +9,70 @@ import gc
 
 class BinManager:
     def __init__(self):
-        self._active_bins = []
+        # self._active_bins = []
         self._buzzer_pin = 32
         self._relay_pin = 33
         self._buzzer = machine.Pin(self._buzzer_pin, machine.Pin.OUT)
         self._relay = machine.Pin(self._relay_pin, machine.Pin.OUT)
+        self.waiting_time = 30
+        
+        self.time_queue = {
+            0 : {
+                
+                "time" : 0,
+                "wait_state" : False
+            },
+            1 : {
+                
+                "time" : 0,
+                "wait_state" : False
+            },
+            2 : {
+                
+                "time" : 0,
+                "wait_state" : False
+            },
+            3 : {
+                
+                "time" : 0,
+                "wait_state" : False
+            }
+            
+        }
+
+    def turn_on_buzzer_and_relay(self):
+        self._buzzer.on()
+        self._relay.on()
+    
+    def turn_off_buzzer_and_relay(self):
+        self._buzzer.off()
+        self._relay.off()
+
+    def check_state(self):
+        isON = False
+
+        for index in range(4):
+            wait_state = self.time_queue[index]["wait_state"]
+            curr_time = self.time_queue[index]["time"]
+
+            if wait_state  == True:
+                if curr_time == 0:
+                    isON = True
+                else:
+                    curr_time -= 1
+            self.time_queue[index]["time"] = curr_time
+        
+        return isON
+                
+    def change_state(self,index,state):
+
+        self.time_queue[index]["time"] = 0 if state=="OFF" else self.waiting_time
+        self.time_queue[index]["wait_state"] = False if state=="OFF" else True
+
+
+        
+
+    
 
     def add_to_active_bins(self, rack_id, bin_index, color):
         if (rack_id, bin_index) not in [(b[0], b[1]) for b in self._active_bins]:
@@ -71,14 +130,15 @@ class Bin:
             self.np[i] = self.color
         self.np.write()
         print(f"LEDs changed to color: {self.color}")
-        self.bin_manager.add_to_active_bins(self.rack_id, self.index, self.color)
+        # self.bin_manager.add_to_active_bins(self.rack_id, self.index, self.color)
+        self.bin_manager.change_state(self.index,"ON")
 
     def turn_off_leds(self):
         for i in range(self.num_leds):
             self.np[i] = (0, 0, 0)
         self.np.write()
         print("LEDs turned off.")
-        self.bin_manager.remove_from_active_bins(self.rack_id, self.index)
+        self.bin_manager.change_state(self.index,"OFF")
 
         
 
@@ -117,7 +177,7 @@ class Bin:
 
             set_bin_queue(bin_queue)
 
-            self.bin_manager.check_and_update_buzzer_relay()
+            # self.bin_manager.check_and_update_buzzer_relay()
             self.send_message(self.index, 'click-change')
 
     def send_message(self, bin_index, operation):
@@ -166,6 +226,7 @@ class Bin:
 
         except Exception as err:
             print(f"Error updating JSON from message: {err}")
+
 
 
 

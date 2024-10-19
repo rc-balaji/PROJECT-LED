@@ -37,7 +37,17 @@ bin_obj = BinConstants(bins_config=bins_config, rack_id=rack_id, bin_manager=bin
 
 _thread.start_new_thread(check_schedules, (const.rtc, bin_obj))
 
+def chech_buzzer_and_relay_state():
 
+    while True:
+        if bin_manager.check_state():
+            bin_manager.turn_on_buzzer_and_relay()
+        else:
+            bin_manager.turn_off_buzzer_and_relay()
+        print(bin_manager.time_queue)
+        time.sleep(1)
+
+_thread.start_new_thread(chech_buzzer_and_relay_state , ())
 def get_click_data_from_server():
         if not sta.server_ip:
             print("Server IP is not set. Generate the server IP first.")
@@ -66,7 +76,6 @@ def get_click_data_from_server():
                     else:
                         current_bin.turn_off_leds()
                         current_bin.clicked = True
-                    current_bin.bin_manager.check_and_update_buzzer_relay()
                     set_bin_queue(bin_queue)
                 # print("Okii")  # Print "Okii" as requested
                 
