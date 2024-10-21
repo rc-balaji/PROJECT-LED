@@ -14,7 +14,7 @@ class BinManager:
         self._relay_pin = 33
         self._buzzer = machine.Pin(self._buzzer_pin, machine.Pin.OUT)
         self._relay = machine.Pin(self._relay_pin, machine.Pin.OUT)
-        self.waiting_time = 30
+        self.waiting_time = 600
         
         self.time_queue = {
             0 : {
