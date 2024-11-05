@@ -19,7 +19,7 @@ from time import sleep
 
 const = Constants()
 bin_manager = BinManager()
-sta = Station(const.SSID, const.PASSWORD, const.SERVER_NO, const.rtc, kit_id=const.KIT_NO)
+sta = Station(const.SSID, const.PASSWORD, const.SERVER_NO, const.rtc, kit_id=const.KIT_NO,static_no=const.STATIC_NO)
 sta.connect_to_wifi()
 sta.update_data_from_server()
 
@@ -111,6 +111,8 @@ def turn_on_led():
 
 
 
+print(sta.server_ip)
+print(sta.local_ip)
 
 while True:
     if sta.isconnected():
