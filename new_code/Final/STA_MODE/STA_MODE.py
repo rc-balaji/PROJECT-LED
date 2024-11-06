@@ -16,10 +16,11 @@ from machine import Pin
 
 from time import sleep
 
-
+print("TP-1")
 const = Constants()
 bin_manager = BinManager()
 sta = Station(const.SSID, const.PASSWORD, const.SERVER_NO, const.rtc, kit_id=const.KIT_NO,static_no=const.STATIC_NO)
+print("TP-2")
 sta.connect_to_wifi()
 sta.update_data_from_server()
 
@@ -37,17 +38,36 @@ bin_obj = BinConstants(bins_config=bins_config, rack_id=rack_id, bin_manager=bin
 
 _thread.start_new_thread(check_schedules, (const.rtc, bin_obj))
 
-def chech_buzzer_and_relay_state():
+# def chech_relay_state():
 
-    while True:
-        if bin_manager.check_state():
-            bin_manager.turn_on_buzzer_and_relay()
-        else:
-            bin_manager.turn_off_buzzer_and_relay()
-        print(bin_manager.time_queue)
-        time.sleep(1)
+#     while True:
+#         if bin_manager.check_state():
+#             bin_manager.turn_on_buzzer_and_relay()
+#         else:
+#             bin_manager.turn_off_buzzer_and_relay()
+#         print(bin_manager.time_queue)
+#         time.sleep(1)
 
-_thread.start_new_thread(chech_buzzer_and_relay_state , ())
+# _thread.start_new_thread(chech_relay_state , ())
+
+def chech_buzzer_state():
+
+    if bin_manager.check_state_buzzer():
+        bin_manager.turn_on_buzzer()
+    else:
+        bin_manager.turn_off_buzzer()
+
+def chech_relay_state():
+
+    if bin_manager.check_state_relay():
+        bin_manager.turn_on_relay()
+    else:
+        bin_manager.turn_off_relay()
+
+
+
+
+
 def get_click_data_from_server():
         if not sta.server_ip:
             print("Server IP is not set. Generate the server IP first.")
@@ -121,6 +141,11 @@ while True:
         sta.get_time_from_server()
         sta.update_data_from_server()
         get_click_data_from_server()
+
+        chech_buzzer_state()
+
+        chech_relay_state()
+
     else:
         print("Not Connecting With Wifi")
         blink_led() 
@@ -131,6 +156,7 @@ while True:
     
 
 print("System initialized and running.")
+
 
 
 
